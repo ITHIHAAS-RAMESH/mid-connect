@@ -1,0 +1,90 @@
+/* Feed.css */
+
+.feed-container {
+  width: 100%;
+  max-width: 800px;
+}
+
+.post {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profile-picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin-right: 10px;
+  /* You can add background image or other styling for the profile picture */
+}
+
+.post-author {
+  display: flex;
+  flex-direction: column;
+}
+
+.author-name {
+  font-weight: bold;
+}
+
+.post-time {
+  color: #3f3d3d;
+  font-size: 15px;
+}
+
+.post-content {
+  margin-bottom: 10px;
+}
+
+.post-content p {
+  margin: 0;
+}
+
+.post-content img {
+  width: 90%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.post-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.like-button,
+.comment-button {
+  background-color: #1877f2;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.like-button:hover,
+.comment-button:hover {
+  background-color: #145fba;
+}
+
+.edit-delete-btn-container {
+  margin-left: auto;
+  display: flex;
+}
+
+.edit-delete-btn {
+  width: 30px;
+  cursor: pointer;
+}
